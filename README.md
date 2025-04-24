@@ -9,8 +9,10 @@ docker build -t ws-tcpdump-okx .
 ## Run image
 
 ```sh
-docker run --rm --net=host --dns=8.8.8.8 --dns=1.1.1.1 ws-tcpdump-okx
+docker run --net=host --dns=8.8.8.8 --dns=1.1.1.1 ws-tcpdump-okx
 ```
+
+Note: you need to remove the container manually after getting the dump
 
 ### Get dump
 
